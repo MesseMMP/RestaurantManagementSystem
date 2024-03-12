@@ -1,0 +1,662 @@
+{
+  "userIdCounter": 3,
+  "users": [
+    {
+      "type": "Administrator",
+      "id": 0,
+      "username": "Messer",
+      "encryptedPassword": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3"
+    },
+    {
+      "type": "Visitor",
+      "id": 1,
+      "username": "Mike",
+      "encryptedPassword": "f6e0a1e2ac41945a9aa7ff8a8aaa0cebc12a3bcc981a929ad5cf810a090e11ae"
+    },
+    {
+      "type": "Visitor",
+      "id": 2,
+      "username": "Thomas",
+      "encryptedPassword": "9b871512327c09ce91dd649b3f96a63b7408ef267c8cc5710114e629730cb61f"
+    }
+  ],
+  "orders": [
+    {
+      "orderId": 1,
+      "items": [
+        {
+          "name": "Бургер",
+          "price": 600,
+          "cookingTime": 10,
+          "quantity": 8,
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Неплохо"
+            },
+            {
+              "rating": 4,
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "name": "Сок",
+          "price": 350,
+          "cookingTime": 5,
+          "quantity": 16,
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "WOW!"
+            },
+            {
+              "rating": 5,
+              "comment": ""
+            },
+            {
+              "rating": 5,
+              "comment": ""
+            }
+          ]
+        }
+      ],
+      "status": "REVIEWED"
+    },
+    {
+      "orderId": 2,
+      "items": [
+        {
+          "name": "Пицца",
+          "price": 750,
+          "cookingTime": 15,
+          "quantity": 5,
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "name": "Бургер",
+          "price": 600,
+          "cookingTime": 10,
+          "quantity": 8,
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Неплохо"
+            },
+            {
+              "rating": 4,
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "name": "Сок",
+          "price": 350,
+          "cookingTime": 5,
+          "quantity": 16,
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "WOW!"
+            },
+            {
+              "rating": 5,
+              "comment": ""
+            },
+            {
+              "rating": 5,
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "name": "Хлеб",
+          "price": 150,
+          "cookingTime": 3,
+          "quantity": 18,
+          "reviews": [
+            {
+              "rating": 3,
+              "comment": ""
+            },
+            {
+              "rating": 3,
+              "comment": ""
+            }
+          ]
+        }
+      ],
+      "status": "REVIEWED"
+    },
+    {
+      "orderId": 3,
+      "items": [
+        {
+          "name": "Сок",
+          "price": 350,
+          "cookingTime": 5,
+          "quantity": 16,
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "WOW!"
+            },
+            {
+              "rating": 5,
+              "comment": ""
+            },
+            {
+              "rating": 5,
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "name": "Стейк",
+          "price": 2000,
+          "cookingTime": 20,
+          "quantity": 0,
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "name": "Салат",
+          "price": 500,
+          "cookingTime": 7,
+          "quantity": 14,
+          "reviews": [
+            {
+              "rating": 3,
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "name": "Хлеб",
+          "price": 150,
+          "cookingTime": 3,
+          "quantity": 18,
+          "reviews": [
+            {
+              "rating": 3,
+              "comment": ""
+            },
+            {
+              "rating": 3,
+              "comment": ""
+            }
+          ]
+        }
+      ],
+      "status": "REVIEWED"
+    },
+    {
+      "orderId": 4,
+      "items": [
+        {
+          "name": "Стейк",
+          "price": 2000,
+          "cookingTime": 20,
+          "quantity": 0,
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "name": "Сок",
+          "price": 350,
+          "cookingTime": 5,
+          "quantity": 16,
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "WOW!"
+            },
+            {
+              "rating": 5,
+              "comment": ""
+            },
+            {
+              "rating": 5,
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "name": "Пицца",
+          "price": 750,
+          "cookingTime": 15,
+          "quantity": 5,
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": ""
+            }
+          ]
+        }
+      ],
+      "status": "CANCELLED"
+    },
+    {
+      "orderId": 5,
+      "items": [
+        {
+          "name": "Бургер",
+          "price": 600,
+          "cookingTime": 10,
+          "quantity": 7,
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Неплохо"
+            },
+            {
+              "rating": 4,
+              "comment": ""
+            },
+            {
+              "rating": 5,
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "name": "Пицца",
+          "price": 750,
+          "cookingTime": 15,
+          "quantity": 4,
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": ""
+            },
+            {
+              "rating": 5,
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "name": "Стейк",
+          "price": 2000,
+          "cookingTime": 20,
+          "quantity": 1,
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": ""
+            },
+            {
+              "rating": 3,
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "name": "Сок",
+          "price": 350,
+          "cookingTime": 5,
+          "quantity": 15,
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "WOW!"
+            },
+            {
+              "rating": 5,
+              "comment": ""
+            },
+            {
+              "rating": 5,
+              "comment": ""
+            },
+            {
+              "rating": 4,
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "name": "Хлеб",
+          "price": 150,
+          "cookingTime": 3,
+          "quantity": 17,
+          "reviews": [
+            {
+              "rating": 3,
+              "comment": ""
+            },
+            {
+              "rating": 3,
+              "comment": ""
+            },
+            {
+              "rating": 2,
+              "comment": ""
+            }
+          ]
+        }
+      ],
+      "status": "REVIEWED"
+    },
+    {
+      "orderId": 6,
+      "items": [
+        {
+          "name": "Коктель",
+          "price": 450,
+          "cookingTime": 6,
+          "quantity": 0,
+          "reviews": [
+            {
+              "rating": 1,
+              "comment": "Фигня"
+            }
+          ]
+        }
+      ],
+      "status": "REVIEWED"
+    },
+    {
+      "orderId": 7,
+      "items": [
+        {
+          "name": "Хлеб",
+          "price": 150,
+          "cookingTime": 3,
+          "quantity": 16,
+          "reviews": [
+            {
+              "rating": 3,
+              "comment": ""
+            },
+            {
+              "rating": 3,
+              "comment": ""
+            },
+            {
+              "rating": 2,
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "name": "Сок",
+          "price": 350,
+          "cookingTime": 5,
+          "quantity": 14,
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "WOW!"
+            },
+            {
+              "rating": 5,
+              "comment": ""
+            },
+            {
+              "rating": 5,
+              "comment": ""
+            },
+            {
+              "rating": 4,
+              "comment": ""
+            }
+          ]
+        }
+      ],
+      "status": "PAID"
+    },
+    {
+      "orderId": 8,
+      "items": [
+        {
+          "name": "Хлеб",
+          "price": 100,
+          "cookingTime": 3,
+          "quantity": 15,
+          "reviews": [
+            {
+              "rating": 3,
+              "comment": ""
+            },
+            {
+              "rating": 3,
+              "comment": ""
+            },
+            {
+              "rating": 2,
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "name": "Стейк",
+          "price": 2000,
+          "cookingTime": 20,
+          "quantity": 2,
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": ""
+            },
+            {
+              "rating": 3,
+              "comment": ""
+            }
+          ]
+        },
+        {
+          "name": "Салат",
+          "price": 500,
+          "cookingTime": 7,
+          "quantity": 13,
+          "reviews": [
+            {
+              "rating": 3,
+              "comment": ""
+            }
+          ]
+        }
+      ],
+      "status": "CANCELLED"
+    },
+    {
+      "orderId": 9,
+      "items": [
+        {
+          "name": "Бургер",
+          "price": 600,
+          "cookingTime": 10,
+          "quantity": 9,
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Неплохо"
+            },
+            {
+              "rating": 4,
+              "comment": ""
+            },
+            {
+              "rating": 5,
+              "comment": ""
+            },
+            {
+              "rating": 3,
+              "comment": "не зашло"
+            }
+          ]
+        },
+        {
+          "name": "Сок",
+          "price": 350,
+          "cookingTime": 5,
+          "quantity": 13,
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "WOW!"
+            },
+            {
+              "rating": 5,
+              "comment": ""
+            },
+            {
+              "rating": 5,
+              "comment": ""
+            },
+            {
+              "rating": 4,
+              "comment": ""
+            },
+            {
+              "rating": 5,
+              "comment": "отлично!"
+            }
+          ]
+        }
+      ],
+      "status": "REVIEWED"
+    }
+  ],
+  "menu": {
+    "dishes": [
+      {
+        "name": "Бургер",
+        "price": 600,
+        "cookingTime": 10,
+        "quantity": 9,
+        "reviews": [
+          {
+            "rating": 4,
+            "comment": "Неплохо"
+          },
+          {
+            "rating": 4,
+            "comment": ""
+          },
+          {
+            "rating": 5,
+            "comment": ""
+          },
+          {
+            "rating": 3,
+            "comment": "не зашло"
+          }
+        ]
+      },
+      {
+        "name": "Пицца",
+        "price": 750,
+        "cookingTime": 15,
+        "quantity": 7,
+        "reviews": [
+          {
+            "rating": 4,
+            "comment": ""
+          },
+          {
+            "rating": 5,
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "name": "Стейк",
+        "price": 2000,
+        "cookingTime": 20,
+        "quantity": 2,
+        "reviews": [
+          {
+            "rating": 4,
+            "comment": ""
+          },
+          {
+            "rating": 3,
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "name": "Салат",
+        "price": 500,
+        "cookingTime": 7,
+        "quantity": 13,
+        "reviews": [
+          {
+            "rating": 3,
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "name": "Сок",
+        "price": 350,
+        "cookingTime": 5,
+        "quantity": 13,
+        "reviews": [
+          {
+            "rating": 5,
+            "comment": "WOW!"
+          },
+          {
+            "rating": 5,
+            "comment": ""
+          },
+          {
+            "rating": 5,
+            "comment": ""
+          },
+          {
+            "rating": 4,
+            "comment": ""
+          },
+          {
+            "rating": 5,
+            "comment": "отлично!"
+          }
+        ]
+      },
+      {
+        "name": "Хлеб",
+        "price": 100,
+        "cookingTime": 3,
+        "quantity": 15,
+        "reviews": [
+          {
+            "rating": 3,
+            "comment": ""
+          },
+          {
+            "rating": 3,
+            "comment": ""
+          },
+          {
+            "rating": 2,
+            "comment": ""
+          }
+        ]
+      },
+      {
+        "name": "Краб",
+        "price": 3000,
+        "cookingTime": 25,
+        "quantity": 1
+      }
+    ]
+  },
+  "totalRevenue": 11550
+}
